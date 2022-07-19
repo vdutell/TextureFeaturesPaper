@@ -5,11 +5,11 @@ This repository contains the packaged codebase used for the texture feature anal
 Included is the code to calculate the 6 statisticsal categories (Coarseness, Contrast, Directionality, Regularity, Line-Likeness, Roughness) for texture images. 
 
 
-Dependencies:
-    Pyrtools (Python Version of PyrTools) https://pyrtools.readthedocs.io/en/lates
-    Multiprocessing https://docs.python.org/3/library/multiprocessing.html
-    Open CV (CV2)
-    Pandas
+Dependencies:  
+    Pyrtools (Python Version of PyrTools) https://pyrtools.readthedocs.io/en/latest   
+    Multiprocessing https://docs.python.org/3/library/multiprocessing.html  
+    Open CV (CV2)  
+    Pandas  
 
 The statistical calculation code is contained in texture_features.py : The fucntions inside this file can be used to calculate these statistical features for any color (three channel) image! Note these functions take a 'normalizer' value, which you likely want to set to normalizer=1 for an image different than what is used in the paper. The normalizer is calculated speficially for this dataset to normalize the distribution of the image set used in our experiment.
 
